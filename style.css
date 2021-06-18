@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(
+      45deg,
+      rgba(103, 0, 31, 0.7),
+      rgba(34, 101, 163, 0.3)
+    ),
+    url(https://html5book.ru/wp-content/uploads/2016/12/photo-8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+div#timer-1.timer {
+}
+.timer {
+  font-family: "Share Tech Mono", monospace;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  left: 75%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+.field {
+  margin-right: 25px;
+}
+
+.value {
+  letter-spacing: 0.05em;
+  font-size: 50px;
+  padding: 5px 0;
+  color: rgba(235, 232, 232, 0.8);
+}
+
+.label {
+  display: block;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  padding: 20px 0 0;
+  color: rgba(7, 5, 5, 0.5);
+}
