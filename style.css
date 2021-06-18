@@ -3,6 +3,7 @@ body {
   height: 100%;
 }
 body {
+
   background: linear-gradient(
       45deg,
       rgba(103, 0, 31, 0.7),
@@ -17,6 +18,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 
 div#timer-1.timer {
 }
@@ -35,6 +37,7 @@ div#timer-1.timer {
 
 .value {
   letter-spacing: 0.05em;
+
   font-size: 50px;
   padding: 5px 0;
   color: rgba(235, 232, 232, 0.8);
@@ -46,4 +49,5 @@ div#timer-1.timer {
   font-size: 24px;
   padding: 20px 0 0;
   color: rgba(7, 5, 5, 0.5);
+
 }
